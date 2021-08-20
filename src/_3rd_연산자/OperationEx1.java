@@ -6,7 +6,7 @@ Ex) 단항 연산자 : ++num;
 	이항 연산자 : num1 + num2;
 	삼항 연산자 : (5>3)?1:0;
 */
-public class OperationEx {
+public class OperationEx1 {
 
 	public static void main(String[] args) {
 		int mathScore = 100;
