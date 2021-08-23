@@ -5,14 +5,14 @@ public class FunctionTest {
 		int num1 = 10; //멤버변수 = 인스턴스 변수 = 속성 = 특성
 		int num2=  20;
 		
-		int sum = add(num1, num2); // ▶ add() 함수 호출하는 메서드 
+		int sum = add(num1, num2); // ▶ add() 함수 호출하는 메서드 : 클래스 내부에서 사용 하는 메서드(멤버함수)는 멤버 변수를 사용하여 클래스의 기능을 구현.
 		System.out.println(num1 + "+" + num2 + "=" + sum + "입니다");
 	}
 	
 	
 	// ▶ add() 함수
 	//매개변수 n1, n2 : 매개변수는 함수의 입력으로 받는 변수임.
-	public static int add(int n1, int n2) { //멤버 함수 = 메서드(method) : 클래스 내부에서 사용 하는 메서드(멤버함수)는 멤버 변수를 사용하여 클래스의 기능을 구현.
+	public static int add(int n1, int n2) { //멤버 함수 = 메서드(method) : 얘는 클래스 외부에 있는 메서드(멤버함수)
 		int result = n1 + n2;
 		return result; // return 예약어는 함수 수행을 끝내고 프로그램 흐름 중에서 호출한 곳으로 다시 되돌아갈 때도 사용 가능.
 		// result 는 int sum 변수에 값을 반홤해줌.
