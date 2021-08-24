@@ -12,4 +12,5 @@ public class Student {
 //Subject로 클래스를 분리하면 subjectName은 Subject 클래스에 선언하면 됨
 //그리고 korean.subjectName, math.subjectName 으로 사용할 수있어서 편리함
 	//아직 잘 이해 안됨;;;
+	
 }

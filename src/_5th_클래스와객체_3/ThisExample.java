@@ -21,12 +21,14 @@ class Birthday{
 	int year;
 
 	public void setYear(int year) { //setYear 메서드 생성 
-		this.year = year;	//b.year = year; 과 같다는데..!
+	this.year = year;	//b.year = year; 과 같다는데..!
+	//year = year 과 같음
 		
 	}
 	 
 	public void printThis() { //printThis() 라는 또 다른 메서드 생성
 		System.out.println(this); //클래스 코드에서 사용하는 THIS는 생성된 인스턴스 자신을 가리키는 역할을 함............이게 무슨말..?
+//		System.out.println(this.year); 라고 생각하면 아주 쉬움 ㅎㅎㅎ
 		//System.out.println(b); 와 같다는데..! 
 	}
 }

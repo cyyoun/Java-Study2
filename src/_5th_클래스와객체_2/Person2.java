@@ -1,6 +1,6 @@
 package _5th_클래스와객체_2;
 //정보 은닉. 접근 제어자
-public class Person {
+public class Person2 {
 	int age;
 	private String personName;
 	int height;
