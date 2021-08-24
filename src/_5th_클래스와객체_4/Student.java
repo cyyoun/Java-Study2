@@ -11,8 +11,8 @@ public class Student {
 		this.money = money;
 	}
 	
-	public void takeBus(Bus bus) {
-		bus.take(1000);
+	public void takeBus(Bus bus) { //Bus bus : 자료형이 Bus 클래스야!
+		bus.take(1000); // 이렇게 쓰이는군 큼큼!
 		this.money -= 1000;
 	}
 	
