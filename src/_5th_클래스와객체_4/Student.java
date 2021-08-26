@@ -6,6 +6,8 @@ public class Student {
 	public int money;
 	
 	
+	
+
 	public Student(String name, int money) {
 		this.studentName = name;
 		this.money = money;
