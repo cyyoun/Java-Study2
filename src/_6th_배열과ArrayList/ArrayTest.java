@@ -3,6 +3,7 @@ package _6th_배열과ArrayList;
 public class ArrayTest {
 	public static void main(String[] args) {
 		// 자료형[] V 배열 이름 = new V 자료형[개수];
+		
 		// 자료형 V 배열 이름[] = new V 자료형[개수]; 
 	//자바에서 배열을 선언하면 그와 동시에 각 요소의 값이 초기화 됨.
 	/*	
